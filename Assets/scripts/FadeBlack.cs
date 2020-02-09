@@ -76,6 +76,21 @@ public class FadeBlack : MonoBehaviour
 
     public void TeamSelect()
     {
+        teamSelect = true;
+        fadeInImage.SetActive(true);
+        fadeOut = true;
+    }
+
+    public void Away()
+    {
+        away = true;
+        fadeInImage.SetActive(true);
+        fadeOut = true;
+    }
+
+    public void TitleScreen()
+    {
+        titleScreen = true;
         fadeInImage.SetActive(true);
         fadeOut = true;
     }

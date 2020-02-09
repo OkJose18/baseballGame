@@ -28,8 +28,8 @@ public class Spinner : MonoBehaviour
         Debug.Log(RedAmount);
         spinner.SetActive(false);
         pointer.SetActive(false);
-        pointerspeed = Random.Range(40, 50);
-        slowdownspeed = Random.Range(0.01f, 0.9f);
+        pointerspeed = Random.Range(100, 200);
+        slowdownspeed = Random.Range(0.1f, 0.9f);
     }
         
     // Update is called once per frame
@@ -57,7 +57,7 @@ public class Spinner : MonoBehaviour
             pointer.SetActive(false);
             RedorGreen();
         }
-        pointer.transform.Rotate(Vector3.forward * pointerspeed);
+        pointer.transform.Rotate(Vector3.forward * pointerspeed * 0.5f);
     }
 
     public void activateSpinner()

@@ -557,7 +557,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 622118416}
-        m_MethodName: TeamSelect
+        m_MethodName: Away
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -855,6 +855,9 @@ MonoBehaviour:
   speed: 0.03
   timer: 0
   fadeOut: 0
+  titleScreen: 0
+  teamSelect: 0
+  away: 0
 --- !u!1 &685969079
 GameObject:
   m_ObjectHideFlags: 0
