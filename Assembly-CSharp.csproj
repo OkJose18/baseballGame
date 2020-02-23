@@ -65,8 +65,10 @@
     <Compile Include="Assets\scripts\JerseyColor.cs" />
     <Compile Include="Assets\scripts\MoveSelect.cs" />
     <Compile Include="Assets\scripts\PlayBall.cs" />
+    <Compile Include="Assets\scripts\Player.cs" />
     <Compile Include="Assets\scripts\SceneSwitcher.cs" />
     <Compile Include="Assets\scripts\Spinner.cs" />
+    <Compile Include="Assets\scripts\Team.cs" />
     <Compile Include="Assets\scripts\TeamSelect.cs" />
     <Compile Include="Assets\scripts\UserTeam.cs" />
     <Compile Include="Assets\scripts\cursormovement.cs" />
